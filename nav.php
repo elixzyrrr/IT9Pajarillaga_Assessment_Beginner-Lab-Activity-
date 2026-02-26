@@ -5,7 +5,7 @@ $current = basename($_SERVER['PHP_SELF']);
 <nav>
   <div class="nav-container">
     <div class="logo">
-      <a href="/assessment_beginner/index.php">BookingSystem</a>
+      <a href="/assessment_beginner/index.php">Booking Service</a>
     </div>
 
     <div class="nav-links">
