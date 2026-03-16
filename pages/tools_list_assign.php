@@ -76,7 +76,7 @@ $bookings = mysqli_query($conn, "SELECT booking_id FROM bookings ORDER BY bookin
   <label>Qty Used</label><br>
   <input type="number" name="qty_used" min="1" value="1"><br><br>
  
-  <button type="assign_button" name="assign">Assign</button>
+  <button type="submit" name="assign">Assign</button>
 </form>
  
 </body>
