@@ -661,3 +661,68 @@ hr {
         padding: 8px;
     }
 }
+
+/* Error Message */
+.message-error {
+    color: #d11a2a;
+    background: #fdeaea;
+    border: 1px solid #f5c2c7;
+    padding: 10px 14px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Textarea Styling */
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    resize: vertical;
+    min-height: 90px;
+    transition: 0.3s;
+}
+
+textarea:focus {
+    border-color: #140937;
+    box-shadow: 0 0 0 2px rgba(20,9,55,0.15);
+    outline: none;
+}
+
+/* Add Service Form */
+form {
+    max-width: 550px;
+    margin: auto;
+}
+
+/* Form spacing */
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    margin-bottom: 15px;
+}
+
+/* Save Button */
+button[name="save"] {
+    background: #140937;
+    color: #fff;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button[name="save"]:hover {
+    background: #0d0626;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+}

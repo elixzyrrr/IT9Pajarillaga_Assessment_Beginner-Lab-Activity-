@@ -26,7 +26,11 @@ if (isset($_POST['save'])) {
 ?>
 <!doctype html>
 <html>
-<head><meta charset="utf-8"><title>Add Service</title></head>
+<head>
+    <meta charset="utf-8">
+    <title>Add Service</title>
+    <link rel="stylesheet" type="text/css" href="../styles.css">
+</head>
 <body>
 <?php include "../nav.php"; ?>
  
